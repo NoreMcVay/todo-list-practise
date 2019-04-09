@@ -1,0 +1,58 @@
+.headingFont {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: bolder;
+}
+
+td {
+  background: whitesmoke;
+  color: black;
+  padding: 20px;
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: bolder;
+}
+
+placeholder {
+font-size: 400px;
+}
+
+th {
+  background: black;
+  color: white;
+  padding: 20px;
+  width: 150px;
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+}
+
+input {
+  height: 40px;
+  width: 350px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+
+button {
+  height: 40px;
+  width: 90px;
+  background: black;
+  color: white;
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+  border-radius: 5px;
+}
+
+.button2 {
+  height: 60px;
+  width: 100px;
+  background: royalblue;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+  border-radius: 5px;
+}

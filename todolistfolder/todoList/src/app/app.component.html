@@ -1,0 +1,21 @@
+
+  <h1 class="headingFont">{{title}}</h1>
+
+  <input type="text" placeholder="Enter Task Here!" #newTodo/>
+  <button (click)="addTodo(newTodo.value); newTodo.value=''">Add</button>
+
+  <table>
+  <tr>
+    <th> Tasks to complete</th>
+    <th>Actions</th>
+  </tr>
+
+  <tr *ngFor="let todo of todos">
+    <td>{{todo.task}}</td>
+    <td>
+      <button (click)="deleteTodo(todo)" class="button2">Mark As Complete</button>
+    </td>
+  </tr>
+
+  </table>
+
