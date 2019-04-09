@@ -30,7 +30,7 @@ export class AppComponent {
   }
 
   deleteTodo(todo) {
-    this.todos = this.todos.filter((filterchecker) => filterchecker.task !== todo.task );
+    this.todos = this.todos.filter((t) => t.task !== todo.task );
   }
 
 
